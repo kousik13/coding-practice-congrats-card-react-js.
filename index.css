@@ -1,0 +1,70 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.congrats-container {
+  padding-top: 50px;
+  text-align: center;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .congrats-container {
+    min-height: 100vh;
+  }
+}
+
+.greetings-heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 768px) {
+  .greetings-heading {
+    font-size: 64px;
+  }
+}
+.profile-container {
+  border-radius: 10px;
+  background-color: #cffafe;
+  padding: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-container {
+    margin-bottom: 50px;
+  }
+}
+.name-heading {
+  font-size: 20px;
+  color: #1e293b;
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 768px) {
+  .name-heading {
+    font-size: 40px;
+  }
+}
+
+.institute-description {
+  font-size: 13px;
+  color: #1e293b;
+  font-family: "Roboto";
+}
+@media screen and (min-width: 768px) {
+  .institute-description {
+    font-size: 26px;
+  }
+}
